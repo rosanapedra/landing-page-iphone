@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone</title>
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <header>
+            <img src="./img/logo.png" alt="Logo do iPhone" class="logo">
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </header>
+
+    <main>  
+        <section>
+            <div class="div-principal">
+                <h2>iPhone 16</h2>
+                <h3>Tão poderoso.
+                Tão ao seu alcance.
+                </h3>
+                <p>Em dois tamanhos perfeitos.
+                Agora com um toque de amarelo.
+                </p>
+                <h6>A partir de R$ 633,25/mês ou R$ 7.599*</h6>
+                <button>Comprar</button>
+                <h5>Escolha sua cor:</h5>
+
+            <div class="conteudo">
+                <span id="roxo" onclick="imgSlider('./img/iphone-roxo.png');circleChange('#BCA4D2')"></span>
+                <span id="azul" onclick="imgSlider('./img/iphone-azul.png'); circleChange('#81A5C4')"></span>
+                <span id="amarelo" onclick="imgSlider('./img/iphone-amarelo.png'); circleChange('#F7DA47')"></span>
+                <span id="branco" onclick="imgSlider('./img/iphone-branco.png'); circleChange('#F8F8F8')"></span>
+                <span id="preto" onclick="imgSlider('./img/iphone-preto.png'); circleChange('#131619')"></span>
+                <span id="vermelho" onclick="imgSlider('./img/iphone-vemelho.png');circleChange('#B50012')"></span>
+            </div>
+        </div>
+        <img src="./img/iphone-roxo.png" class="img-iphone" alt="Imagem do iPhone" id="phone">
+        </section>
+    </main>
+    
+    <script src="./scripts.js"></script>
+</body>
+</html>
